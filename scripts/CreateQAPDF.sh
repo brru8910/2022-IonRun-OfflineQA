@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Number of most-recent files to hadd. 
-numberOfFiles=2000
+numberOfFiles=100
 
 if [[ $# -gt 1 ]]
 then
@@ -11,13 +11,13 @@ fi
 
 runNumber=$1
 
-EOSDropDirectory='/afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/EOSDropDirectory'
-pdfMakerDirectory='/afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/pdfMaker'
+EOSDropDirectory='/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/EOSDropDirectory'
+pdfMakerDirectory='/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/pdfMaker'
 
 cd $EOSDropDirectory
 
 #List of QA rootfile template names.
-qaFiles=("TPCClusterQA" "TPCVertexQA" "TDAQQA" "TOFFQA" "GRCClusterQA")
+qaFiles=("BPDQA PSDQA MRPCQA VDQA TPCClusterQA" "TPCVertexQA" "TDAQQA" "TOFFQA" "GRCClusterQA")
 
 for qaName in "${qaFiles[@]}"
 do

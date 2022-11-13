@@ -27,7 +27,7 @@ nLogsToKeep=100
 #the result list limitations of ls (or rm). Pipe output to head,
 #preserve nLogsToKeep, and pipe to xargs-wrapped rm.
 
-find /afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/work/ -maxdepth 1 -name '*' | tail -n +2 | head -n -$nLogsToKeep | xargs $xargsInteractiveFlag rm -r
+find /afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/work/ -maxdepth 1 -name '*' | tail -n +2 | head -n -$nLogsToKeep | xargs $xargsInteractiveFlag rm -r
 
 #Clean out .bz2 logs using same technique.
-find /afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/log.bz2/ -maxdepth 1 -name '*' |  tail -n +2  | head -n -$nLogsToKeep | xargs $xargsInteractiveFlag rm -r
+find /afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/log.bz2/ -maxdepth 1 -name '*' |  tail -n +2  | head -n -$nLogsToKeep | xargs $xargsInteractiveFlag rm -r

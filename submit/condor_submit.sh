@@ -11,16 +11,16 @@ echo "========================= START ========================="
 NUM_CLUSTERS=1
 
 #Place of work dir. Use afs, as eos has IO problems
-RECO_WORK_DIR=/afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/work
+RECO_WORK_DIR=/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/work
 
 #Log output directory. Use afs, not eos for logs
-LOG_DROP_DIR=/afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/log.bz2
+LOG_DROP_DIR=/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/log.bz2
 
 #Directory of reconstruction sequence. This should probably be afs as well
-SRC_DIR=/afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/SHINEReconstruction-master_slc7
+SRC_DIR=/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/SHINEReconstruction-master_slc7
 
 #Place of output shoe.root files. CTA directory needs to already be made
-RECO_DROP_DIR_EOS=/eos/experiment/na61/data/OnlineProduction/2022-p+T2K-OfflineQA
+RECO_DROP_DIR_EOS=/eos/experiment/na61/data/OnlineProduction/2022-IonRun-OfflineQA
 
 CONDOR_CMD=condor_submit
 CMD=condor_run.sh
