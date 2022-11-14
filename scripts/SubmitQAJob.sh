@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Exit without submitting Module Sequence. This disables
+#OfflineQA. Comment this line out to turn back on.
+exit 0
+
 #Transfer arguments.
 inputFile=$1
 inputDirectory=$2

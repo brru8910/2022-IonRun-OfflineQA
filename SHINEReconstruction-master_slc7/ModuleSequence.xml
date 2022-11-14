@@ -23,14 +23,16 @@
       <module> V0FinderSG                      </module>
       <module> V0FitterSG                      </module>
       <module> NoiseClusterExcluderED          </module>
-      <module> DelayWireChamberReconstructorBR </module>
       <!--<module> ShineFileExporterSG             </module>-->
       <!-- QA Modules -->
+      <module> TDAQQA                          </module>
+      <module> VDQA                          </module>
+      <module> BPDQA                          </module>
       <module> TPCClusterQA                    </module>      
       <module> TPCVertexQA                     </module>
-      <module> TDAQQA                          </module>
       <module> GRCClusterQA                    </module>
-      <module> TOFFQualityAssessmentKA         </module>
+<!--      <module> MRPCQA                          </module>-->
+      <module> PSDQA                          </module> 
     </loop>
     
   </moduleControl>

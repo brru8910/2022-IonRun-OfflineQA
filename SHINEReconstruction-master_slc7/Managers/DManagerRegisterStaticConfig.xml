@@ -42,11 +42,11 @@
   <manager> TOFStaticInfoXMLManager </manager>
   <manager> PSDGeometryFixedManager </manager>
   <manager> TOFAlignmentGeometryFixedManager </manager>
-  <manager> TOFInternalGeometryFixedManager </manager>
   <manager> TOFStatusFixedManager </manager>
   <manager> TOFFGeometryFixedManager </manager>
   <manager> TOFFScintillatorFixedManager </manager>
   <manager> TOFFStaticInfoManager </manager>
+  <manager> TOFInternalGeometryFixedManager </manager>
   <manager> SiliconStaticInfoXMLManager </manager>
   <manager> SiliconGeometryFixedManager </manager>
   <manager> SiliconNoiseFixedManager </manager>
@@ -58,5 +58,6 @@
   <manager> GRCAlignmentGeometryFixedManager </manager>
   <manager> GRCInternalGeometryFixedManager </manager>
   <manager> GRCWireGainFixedManager </manager>
+  <manager> MRPCStaticInfoManager </manager>
 
 </DManagerRegisterConfig>

@@ -15,7 +15,7 @@
 #  193 | cm/us  | FTPC1
 
 #Assign start & stop periods to define dump edges.
-START_DATE='2022-06-19'
+START_DATE='2022-11-15'
 START_TIME='00:00:00'
 
 CURRENT_DATE=$(date +"%Y-%m-%d")
