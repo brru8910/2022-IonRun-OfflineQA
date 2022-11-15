@@ -5,7 +5,10 @@ File:
 run-001384x0001_2022-05-24_06-09-51.pteraw
 
 Example command (run from inside SHINEReconstruction-master_slc7 directory): 
-./CopyFromCTAAndRunSHINE.sh -i run-001402x0001_2022-05-24_16-22-14.pteraw -d /eos/experiment/na61/data/test_period_April_2022
+./CopyFromCTAAndRunSHINE.sh -i run-041395x00001_buffer_2022-11-15_13-10-54.pteraw -d /eos/experiment/na61/data/test_November_2022
+
+Example file on EOS with Vertex Detector:
+./CopyFromCTAAndRunSHINE.sh -i run-001191x001_2022-05-09_23-22-04.pteraw -d /eos/experiment/na61/data/test_period_April_2022
 
 Example submit command (can run from anywhere):
 SubmitQAJob.sh run-001402x0001_2022-05-24_16-22-14.pteraw /eos/experiment/na61/data/test_period_April_2022

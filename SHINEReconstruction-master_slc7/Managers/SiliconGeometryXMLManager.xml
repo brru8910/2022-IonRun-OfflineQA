@@ -6,10 +6,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/SiliconGeometryXMLManager.xsd'>
 
-  <XMLFile runStart="31974" runStop="33402"> SAVDGeometry_XeLa150.xml </XMLFile>
-  <XMLFile runStart="33408" runStop="33764"> SAVDGeometry_XeLa75.xml </XMLFile>
-  <XMLFile runStart="34909" runStop="35269"> SAVDGeometry_XeLa40.xml </XMLFile>
-  <XMLFile runStart="38014" runStop="39114"> MAVD_nominal2021.xml </XMLFile> <!--TODO SAVDGeometry_PbPb150.xml-->
-  <XMLFile runStart="40000" runStop="99999"> MAVD_nominal2021.xml </XMLFile>  
+  <XMLFile runStart="1" runStop="99999"> MAVD_nominal2021.xml </XMLFile>  
 
 </SiliconGeometryXMLManager>

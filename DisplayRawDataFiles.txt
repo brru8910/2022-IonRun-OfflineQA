@@ -6,5 +6,8 @@ Other commands after xrdfs and the host designation are also
 available, such as 'mv', 'rm', etc. Extreme caution should be used
 here, as this account has full permissions in the directory.
 
+EOS directory for this run:
+/eos/experiment/na61/data/test_period_April_2022/test_November_2022
+
 Good luck!
 -Brant, November 13th 2022

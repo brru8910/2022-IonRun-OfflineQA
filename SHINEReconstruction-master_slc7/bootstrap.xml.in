@@ -23,6 +23,18 @@
   <centralConfig>
 
     <configLink
+      id         = "VdReconstructionSG"
+      xlink:href = "&configDir;/VdReconstructionSG.xml"/>
+
+    <configLink
+      id         = "BPDReconstructorSG"
+      xlink:href = "./ConfigFiles/BPDReconstructorSG.xml"/>
+
+    <configLink
+      id         = "PSDReconstructorSG"
+      xlink:href = "&configDir;/PSDReconstructorSG.xml"/>
+
+    <configLink
       id         = "VDQA"
       xlink:href = "&configDir;/VDQA.xml"/>
 
@@ -52,11 +64,11 @@
 
     <configLink
       id         = "DRS4CalibratorKA"
-      xlink:href = "./ConfigFiles/DRS4CalibratorKA.xml"/>
+      xlink:href = "&configDir;/DRS4CalibratorKA.xml"/>
 
     <configLink
       id         = "DManagerRegister"
-      xlink:href = "/Managers/DManagerRegisterStaticConfig.xml"/>
+      xlink:href = "./Managers/DManagerRegisterStaticConfig.xml"/>
 
     <configLink
       id         = "ModuleSequence"

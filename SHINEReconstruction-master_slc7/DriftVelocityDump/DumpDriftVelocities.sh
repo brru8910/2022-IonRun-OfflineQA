@@ -28,7 +28,3 @@ echo 'Dumping drift velocities from '$START_DATE' '$START_TIME' to '$CURRENT_DAT
 ./DumpDriftVelocity 148 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > VTPC2.txt
 ./DumpDriftVelocity 145 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > MTPCL.txt
 ./DumpDriftVelocity 146 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > MTPCR.txt
-./DumpDriftVelocity 149 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > GTPC.txt
-./DumpDriftVelocity 202 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > FTPC1.txt
-./DumpDriftVelocity 192 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > FTPC2.txt
-./DumpDriftVelocity 193 `date +"%s" -d $START_DATE" "$START_TIME` `date +"%s" -d $CURRENT_DATE" "$CURRENT_TIME` > FTPC3.txt

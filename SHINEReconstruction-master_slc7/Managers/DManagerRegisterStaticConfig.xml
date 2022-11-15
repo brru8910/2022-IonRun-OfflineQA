@@ -48,7 +48,7 @@
   <manager> TOFFStaticInfoManager </manager>
   <manager> TOFInternalGeometryFixedManager </manager>
   <manager> SiliconStaticInfoXMLManager </manager>
-  <manager> SiliconGeometryFixedManager </manager>
+  <manager> SiliconGeometryXMLManager </manager>
   <manager> SiliconNoiseFixedManager </manager>
   <manager> SiliconTypeFixedManager </manager>
   <manager> TPCdEdxCalibConstantsTextManager </manager>

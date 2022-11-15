@@ -6,6 +6,7 @@
 
   <DRS4Calibration runStart="1" runStop="9999999"> 
     <calibFile> /afs/cern.ch/user/n/na61qa/public/VCalib_2022-07-13.bin </calibFile>
+    <calibFile> /afs/cern.ch/user/n/na61qa/public/VCalib_2022-11-14.bin </calibFile>
   </DRS4Calibration>
 
 </DRS4CalibrationList>

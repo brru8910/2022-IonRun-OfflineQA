@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Configuration of Module BPDReconstructor -->
+
+<BPDReconstructorSG
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/BPDReconstructorSG.xsd'>
+
+  <!-- Minimum signal to assign strip to cluster -->
+  <threshold> 50 </threshold>
+
+  <!-- Number of strips omitted on edges of BPD planes -->
+  <edge> 1 </edge>
+
+  <!-- Minimum charge of cluster not to signal it in recBPDPlane::Status -->
+  <minCharge> 700 </minCharge>
+
+  <!-- Maximum number of strips in good cluster -->
+  <maxWidth> 8 </maxWidth>
+
+  <!-- Minimum time when signal maximum in BPD1 with DRS4 readout may appear  -->
+  <minSearchLimitBPD1> 484 </minSearchLimitBPD1>
+
+  <!-- Maximum time when signal maximum in BPD1 with DRS4 readout may appear -->
+  <maxSearchLimitBPD1> 572 </maxSearchLimitBPD1>
+
+   <!-- Minimum time when signal maximum in BPD2 with DRS4 readout may appear  -->
+  <minSearchLimitBPD2> 484 </minSearchLimitBPD2>
+
+  <!-- Maximum time when signal maximum in BPD2 with DRS4 readout may appear -->
+  <maxSearchLimitBPD2> 572 </maxSearchLimitBPD2>
+
+   <!-- Minimum time when signal maximum in BPD3 with DRS4 readout may appear  -->
+  <minSearchLimitBPD3> 484 </minSearchLimitBPD3>
+
+  <!-- Maximum time when signal maximum in BPD3 with DRS4 readout may appear -->
+  <maxSearchLimitBPD3> 572 </maxSearchLimitBPD3>
+
+  <!-- Minimal difference beetwen signal and noise -->
+  <signalToNoise> 20 </signalToNoise>
+
+  <!-- Set 1 for proton beam and DRS4 readout -->
+  <protons> 1 </protons>
+
+  <!-- Minimum signal rise time value -->
+  <riseTimeMinimum> 32 </riseTimeMinimum>
+
+   <!-- Maximum signal rise time value -->
+  <riseTimeMaximum> 116 </riseTimeMaximum>
+
+  <!-- Ids of detectors to use in beam track fitting -->
+  <detectorsToUse> BPD1 BPD2 BPD3 </detectorsToUse>
+
+</BPDReconstructorSG>

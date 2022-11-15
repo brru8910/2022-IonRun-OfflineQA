@@ -283,7 +283,7 @@ xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/VDGeometry_DBFormat.xsd'>
     </saleve>
     </entry>
   </commonSensorGeometries>
-<entry runStart='38014' runStop='99999'>
+<entry runStart='1' runStop='99999'>
 <offsetToTPC unit='mm'> 0.0 0.0 -5980.0 </offsetToTPC>
     <armGeometry>
       <jura>
