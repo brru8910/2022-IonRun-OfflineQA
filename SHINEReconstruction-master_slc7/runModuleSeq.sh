@@ -2,7 +2,7 @@
 
 #################### User definitions section ##########################
 
-INTERNALOUTPUTS="TPCClusterQA.root TPCVertexQA.root TDAQQA.root BPDQA.root VDQA.root PSDQA.root MRPCQA.root GRCClusterQA.root"
+INTERNALOUTPUTS="TPCClusterQA.root TPCVertexQA.root TDAQQA.root BPDQA.root VDQA.root PSDQA.root MRPCQA.root GRCClusterQA.root shoe.root Residuals.root krCalibration.root"
 
 #################### Enf of user definitions section ###################
 

@@ -103,22 +103,16 @@ if [ $EXITCODE -eq 0 ]; then
     echo Moving output...
     #FIXME LOOP THROUGH QAs!!
     echo 'Copying files: '
-    ls *.TPCClusterQA.root
-    ls *.GRCClusterQA.root
-    ls *.TPCVertexQA.root
-    ls *.TDAQQA.root
-    ls *.TOFFQA.root
-    ls *.DelayWireChamberReconstructionBR.root
-    ls *.krCalibration.root
+    ls *Residuals.root
+    ls *QA.root
+    ls *shoe.root
+    ls *krCalibration.root
     echo 'To directory:'
     echo $reco_drop_dir
-    cp -f *.TPCClusterQA.root $reco_drop_dir
-    cp -f *.TPCVertexQA.root $reco_drop_dir
-    cp -f *.TDAQQA.root $reco_drop_dir
-    cp -f *.TOFFQA.root $reco_drop_dir
-    cp -f *.GRCClusterQA.root $reco_drop_dir
-    cp -f *.DelayWireChamberReconstructionBR.root $reco_drop_dir
-    cp -f *.krCalibration.root $reco_drop_dir
+    cp -f *Residuals.root $reco_drop_dir
+    cp -f *QA.root $reco_drop_dir
+    cp -f *shoe.root $reco_drop_dir
+    cp -f *krCalibration.root $reco_drop_dir
 fi
 
 exit $EXITCODE

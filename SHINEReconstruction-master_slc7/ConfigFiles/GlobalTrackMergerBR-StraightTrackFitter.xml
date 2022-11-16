@@ -11,9 +11,9 @@
   <maxKalmanFilterStepSize unit="cm"> 5.0 </maxKalmanFilterStepSize> 
 
   <!-- Max average track residual. -->
-  <maxAverageResidual unit="cm"> 1.0 </maxAverageResidual>
+  <maxAverageResidual unit="cm"> 5.0 </maxAverageResidual>
   <!-- Max metric allowed for tracks to be merged. -->
-  <maxMergeMetric> 3.0 </maxMergeMetric>
+  <maxMergeMetric> 2.0 </maxMergeMetric>
   
   <!-- List of detectors in which global tracking should be performed,
        each with its own track merging parameters. Merging order goes
@@ -112,7 +112,7 @@
       <!-- Track fitter to use in this detector. Options are "kalmanFilter"
 	   for fitting in a non-zero magnetic field, or "straightTrackFitter"
 	   for fitting straight lines only. -->
-      <fitterToUse> kalmanFilter </fitterToUse>
+      <fitterToUse> straightTrackFitter </fitterToUse>
       <!-- Weights for assigning signifiance to track parameter match/mismatch
 	   during track segment merging. A larger value indicates that mismatches
 	   in the corresponding track parameter will penalize track segment merging more. -->
@@ -124,11 +124,11 @@
       <!-- List of detectors to search for merges in. Must be in
 	   the desired merging order! -->
       <detectorsToMerge> 
-	GTPC
 	FTPC1
 	MTPCs
 	FTPC2
 	FTPC3
+	GTPC
 	VTPC1
       </detectorsToMerge> 
     </detectorSetup>
@@ -137,7 +137,7 @@
       <!-- Track fitter to use in this detector. Options are "kalmanFilter"
 	   for fitting in a non-zero magnetic field, or "straightTrackFitter"
 	   for fitting straight lines only. -->
-      <fitterToUse> kalmanFilter </fitterToUse>
+      <fitterToUse> straightTrackFitter </fitterToUse>
       <!-- Weights for assigning signifiance to track parameter match/mismatch
 	   during track segment merging. A larger value indicates that mismatches
 	   in the corresponding track parameter will penalize track segment merging more. -->
@@ -162,7 +162,7 @@
       <!-- Track fitter to use in this detector. Options are "kalmanFilter"
 	   for fitting in a non-zero magnetic field, or "straightTrackFitter"
 	   for fitting straight lines only. -->
-      <fitterToUse> kalmanFilter </fitterToUse>
+      <fitterToUse> straightTrackFitter </fitterToUse>
       <!-- Weights for assigning signifiance to track parameter match/mismatch
 	   during track segment merging. A larger value indicates that mismatches
 	   in the corresponding track parameter will penalize track segment merging more. -->

@@ -9,19 +9,9 @@ tmpDirectory=/eos/experiment/na61/data/OnlineProduction/2022-IonRun-OfflineQA/Ch
 
 echo '[WARNING] File must exist in EOS Drop Directory!'
 
-#Copy file immediately from CTA into temporary EOS space.
-#echo '[INFO] Copying file to temporary storage: '$inputDirectory/$inputFile'.'
-#xrdcp $inputDirectory/$inputFile $tmpDirectory
-
-#if [ $? -ne 0 ]
-#then
-#  echo "[ERROR] xrdcp of file "$inputDirectory/$inputFile" failed!"
-#  exit 1
-#fi
-
 #Move to submit directory and submit QA job.
 cd /afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/submit
-echo "Submitting file $inputFile in directory $inputDirectory ."
+echo "Submitting file $inputFile in directory $tmpDirectory ."
 ./condor_submit.sh $inputFile $tmpDirectory
 
 exit 0

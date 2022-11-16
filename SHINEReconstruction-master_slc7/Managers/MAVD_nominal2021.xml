@@ -1,290 +1,529 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <VDGeometry
-xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/VDGeometry_DBFormat.xsd'>
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/VDGeometry_DBFormat.xsd'>
 
   <commonSensorGeometries>
     <entry id='2021'>
-    <jura>
-      <sensorGeometry id='vdj1_0'>
-        <offset unit='mm'> 0 -30 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj1_1'>
-        <offset unit='mm'> 0 0 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj1_2'>
-        <offset unit='mm'> 0 30 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_0'>
-        <offset unit='mm'> 0 -30 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_1'>
-        <offset unit='mm'> 0 0 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_2'>
-        <offset unit='mm'> 0 30 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_3'>
-        <offset unit='mm'> 12.56 -30 45.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_4'>
-        <offset unit='mm'> 12.56 0 45.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj2_5'>
-        <offset unit='mm'> 12.56 30 45.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_0'>
-        <offset unit='mm'> 0.625 -60 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_1'>
-        <offset unit='mm'> 0.625 -30 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_2'>
-        <offset unit='mm'> 0.625 0 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_3'>
-        <offset unit='mm'> 0.625 30 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_4'>
-        <offset unit='mm'> 0.625 60 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_5'>
-        <offset unit='mm'> 13.185 -60 95.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_6'>
-        <offset unit='mm'> 13.185 -30 95.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_7'>
-        <offset unit='mm'> 13.185 0 95.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_8'>
-        <offset unit='mm'> 13.185 30 95.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj3_9'>
-        <offset unit='mm'> 13.185 60 95.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_0'>
-        <offset unit='mm'> 2.0818 -60 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_1'>
-        <offset unit='mm'> 2.0818 -30 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_2'>
-        <offset unit='mm'> 2.0818 0 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_3'>
-        <offset unit='mm'> 2.0818 30 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_4'>
-        <offset unit='mm'> 2.0818 60 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_5'>
-        <offset unit='mm'> 14.6418 -60 145.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_6'>
-        <offset unit='mm'> 14.6418 -30 145.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_7'>
-        <offset unit='mm'> 14.6418 0 145.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_8'>
-        <offset unit='mm'> 14.6418 30 145.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_9'>
-        <offset unit='mm'> 14.6418 60 145.57 </offset>
-        <rotation unit='rad'> 0 0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_10'>
-        <offset unit='mm'> 27.0318 -60 140.56 </offset>
-        <rotation unit='rad'> 0 0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_11'>
-        <offset unit='mm'> 27.0318 -30 140.56 </offset>
-        <rotation unit='rad'> 0 0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_12'>
-        <offset unit='mm'> 27.0318 0 140.56 </offset>
-        <rotation unit='rad'> 0 0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_13'>
-        <offset unit='mm'> 27.0318 30 140.56 </offset>
-        <rotation unit='rad'> 0 0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vdj4_14'>
-        <offset unit='mm'> 27.0318 60 140.56 </offset>
-        <rotation unit='rad'> 0 0.1396 0 </rotation>
-      </sensorGeometry>
-    </jura>
-    <saleve>
-      <sensorGeometry id='vds1_0'>
-        <offset unit='mm'> 0 -30 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds1_1'>
-        <offset unit='mm'> 0 0 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds1_2'>
-        <offset unit='mm'> 0 30 0 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_0'>
-        <offset unit='mm'> 0 -30 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_1'>
-        <offset unit='mm'> 0 0 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_2'>
-        <offset unit='mm'> 0 30 50 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_3'>
-        <offset unit='mm'> -12.56 -30 45.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_4'>
-        <offset unit='mm'> -12.56 0 45.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds2_5'>
-        <offset unit='mm'> -12.56 30 45.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_0'>
-        <offset unit='mm'> -0.625 -60 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_1'>
-        <offset unit='mm'> -0.625 -30 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_2'>
-        <offset unit='mm'> -0.625 0 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_3'>
-        <offset unit='mm'> -0.625 30 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_4'>
-        <offset unit='mm'> -0.625 60 100 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_5'>
-        <offset unit='mm'> -13.185 -60 95.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_6'>
-        <offset unit='mm'> -13.185 -30 95.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_7'>
-        <offset unit='mm'> -13.185 0 95.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_8'>
-        <offset unit='mm'> -13.185 30 95.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds3_9'>
-        <offset unit='mm'> -13.185 60 95.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_0'>
-        <offset unit='mm'> -2.0818 -60 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_1'>
-        <offset unit='mm'> -2.0818 -30 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_2'>
-        <offset unit='mm'> -2.0818 0 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_3'>
-        <offset unit='mm'> -2.0818 30 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_4'>
-        <offset unit='mm'> -2.0818 60 150 </offset>
-        <rotation unit='rad'> 0 0 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_5'>
-        <offset unit='mm'> -14.6418 -60 145.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_6'>
-        <offset unit='mm'> -14.6418 -30 145.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_7'>
-        <offset unit='mm'> -14.6418 0 145.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_8'>
-        <offset unit='mm'> -14.6418 30 145.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_9'>
-        <offset unit='mm'> -14.6418 60 145.57 </offset>
-        <rotation unit='rad'> 0 -0.1047 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_10'>
-        <offset unit='mm'> -27.0318 -60 140.56 </offset>
-        <rotation unit='rad'> 0 -0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_11'>
-        <offset unit='mm'> -27.0318 -30 140.56 </offset>
-        <rotation unit='rad'> 0 -0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_12'>
-        <offset unit='mm'> -27.0318 0 140.56 </offset>
-        <rotation unit='rad'> 0 -0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_13'>
-        <offset unit='mm'> -27.0318 30 140.56 </offset>
-        <rotation unit='rad'> 0 -0.1396 0 </rotation>
-      </sensorGeometry>
-      <sensorGeometry id='vds4_14'>
-        <offset unit='mm'> -27.0318 60 140.56 </offset>
-        <rotation unit='rad'> 0 -0.1396 0 </rotation>
-      </sensorGeometry>
-    </saleve>
+      <jura>
+        <sensorGeometry id='vdj1_0'>
+          <offset unit='mm'> 0 -30 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj1_1'>
+          <offset unit='mm'> 0 0 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj1_2'>
+          <offset unit='mm'> 0 30 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_0'>
+          <offset unit='mm'> 0 -30 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_1'>
+          <offset unit='mm'> 0 0 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_2'>
+          <offset unit='mm'> 0 30 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_3'>
+          <offset unit='mm'> 12.56 -30 45.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_4'>
+          <offset unit='mm'> 12.56 0 45.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj2_5'>
+          <offset unit='mm'> 12.56 30 45.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_0'>
+          <offset unit='mm'> 0.0 -60 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_1'>
+          <offset unit='mm'> 0.0 -30 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_2'>
+          <offset unit='mm'> 0.0 0 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_3'>
+          <offset unit='mm'> 0.0 30 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_4'>
+          <offset unit='mm'> 0.0 60 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_5'>
+          <offset unit='mm'> 12.56 -60 95.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_6'>
+          <offset unit='mm'> 12.56 -30 95.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_7'>
+          <offset unit='mm'> 12.56 0 95.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_8'>
+          <offset unit='mm'> 12.56 30 95.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj3_9'>
+          <offset unit='mm'> 12.56 60 95.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_0'>
+          <offset unit='mm'> 1.5 -60 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_1'>
+          <offset unit='mm'> 1.5 -30 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_2'>
+          <offset unit='mm'> 1.5 0 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_3'>
+          <offset unit='mm'> 1.5 30 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_4'>
+          <offset unit='mm'> 1.5 60 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_5'>
+          <offset unit='mm'> 14.06 -60 145.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_6'>
+          <offset unit='mm'> 14.06 -30 145.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_7'>
+          <offset unit='mm'> 14.06 0 145.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_8'>
+          <offset unit='mm'> 14.06 30 145.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_9'>
+          <offset unit='mm'> 14.06 60 145.57 </offset>
+          <rotation unit='rad'> 0 0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_10'>
+          <offset unit='mm'> 26.45 -60 140.56 </offset>
+          <rotation unit='rad'> 0 0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_11'>
+          <offset unit='mm'> 26.45 -30 140.56 </offset>
+          <rotation unit='rad'> 0 0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_12'>
+          <offset unit='mm'> 26.45 0 140.56 </offset>
+          <rotation unit='rad'> 0 0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_13'>
+          <offset unit='mm'> 26.45 30 140.56 </offset>
+          <rotation unit='rad'> 0 0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vdj4_14'>
+          <offset unit='mm'> 26.45 60 140.56 </offset>
+          <rotation unit='rad'> 0 0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+            <flip axis='x' unit='rad'> 3.14159265358979323846 </flip>
+          </flips>
+        </sensorGeometry>
+      </jura>
+      <saleve>
+        <sensorGeometry id='vds1_0'>
+          <offset unit='mm'> 0 -30 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds1_1'>
+          <offset unit='mm'> 0 0 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds1_2'>
+          <offset unit='mm'> 0 30 0 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_0'>
+          <offset unit='mm'> 0 -30 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_1'>
+          <offset unit='mm'> 0 0 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_2'>
+          <offset unit='mm'> 0 30 50 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_3'>
+          <offset unit='mm'> -12.56 -30 45.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_4'>
+          <offset unit='mm'> -12.56 0 45.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds2_5'>
+          <offset unit='mm'> -12.56 30 45.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_0'>
+          <offset unit='mm'> 0 -60 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_1'>
+          <offset unit='mm'> 0 -30 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_2'>
+          <offset unit='mm'> 0.0 0 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_3'>
+          <offset unit='mm'> 0.0 30 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_4'>
+          <offset unit='mm'> 0.0 60 100 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_5'>
+          <offset unit='mm'> -12.56 -60 95.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_6'>
+          <offset unit='mm'> -12.56 -30 95.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_7'>
+          <offset unit='mm'> -12.56 0 95.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_8'>
+          <offset unit='mm'> -12.56 30 95.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds3_9'>
+          <offset unit='mm'> -12.56 60 95.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_0'>
+          <offset unit='mm'> -1.5 -60 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_1'>
+          <offset unit='mm'> -1.5 -30 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_2'>
+          <offset unit='mm'> -1.5 0 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_3'>
+          <offset unit='mm'> -1.5 30 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_4'>
+          <offset unit='mm'> -1.5 60 150 </offset>
+          <rotation unit='rad'> 0 0 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_5'>
+          <offset unit='mm'> -14.06 -60 145.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_6'>
+          <offset unit='mm'> -14.06 -30 145.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_7'>
+          <offset unit='mm'> -14.06 0 145.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_8'>
+          <offset unit='mm'> -14.06 30 145.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_9'>
+          <offset unit='mm'> -14.06 60 145.57 </offset>
+          <rotation unit='rad'> 0 -0.1047 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_10'>
+          <offset unit='mm'> -26.45 -60 140.56 </offset>
+          <rotation unit='rad'> 0 -0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_11'>
+          <offset unit='mm'> -26.45 -30 140.56 </offset>
+          <rotation unit='rad'> 0 -0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_12'>
+          <offset unit='mm'> -26.45 0 140.56 </offset>
+          <rotation unit='rad'> 0 -0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_13'>
+          <offset unit='mm'> -26.45 30 140.56 </offset>
+          <rotation unit='rad'> 0 -0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+        <sensorGeometry id='vds4_14'>
+          <offset unit='mm'> -26.45 60 140.56 </offset>
+          <rotation unit='rad'> 0 -0.1396 0 </rotation>
+          <flips>
+            <flip axis='z' unit='rad'> 1.57079632679489661923 </flip>
+          </flips>
+        </sensorGeometry>
+      </saleve>
     </entry>
   </commonSensorGeometries>
-<entry runStart='1' runStop='99999'>
-<offsetToTPC unit='mm'> 0.0 0.0 -5980.0 </offsetToTPC>
+
+  <entry runStart='38014' runStop='99999'>
+    <offsetToTPC unit='mm'> 0.0 0.0 -5980.0 </offsetToTPC>
     <armGeometry>
       <jura>
         <offset unit='mm'> 10.5 0 0 </offset>

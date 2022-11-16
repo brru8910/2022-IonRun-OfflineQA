@@ -6,28 +6,27 @@
     xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/ModuleSequence.xsd'>
 
   <enableTiming/>
-  <!--<enableModuleTracing/>-->
+  <enableModuleTracing/>
 
   <moduleControl>
     
-    <loop numTimes="20000">
+    <loop numTimes="200">
       <module> EventFileReaderSG               </module>
       <module> DRS4CalibratorKA                </module>
       <module> BPDReconstructorSG              </module>
-      <module> TPCClusterFinderAL              </module>
-      <module> GRCClusterFinderAL              </module> 
-      <module> ExBCorrectorSG                  </module>
-      <module> LocalTrackFinderBR              </module>
-      <module> GlobalTrackMergerBR             </module>
-      <module> BeamlineTPCTrackFitterBR        </module>
-      <module> MainVertexModuleBR              </module>
-      <module> V0FinderSG                      </module>
-      <module> V0FitterSG                      </module>
-      <module> PSDReconstructorSG              </module>
-      <module> AlVdHitFinderPS                 </module>
-      <module> AlVdTrackFinderSG               </module>
-      <module> NoiseClusterExcluderED          </module>
-      <!--<module> ShineFileExporterSG             </module>-->
+      <!--      <module> TPCClusterFinderAL              </module>
+	   <module> GRCClusterFinderAL              </module> 
+	   <module> ExBCorrectorSG                  </module>
+	   <module> LocalTrackFinderBR              </module>
+	   <module> ResidualsModuleBR               </module>
+	   <module> GlobalTrackMergerBR             </module>
+	   <module> MainVertexModuleBR              </module>
+	   <module> V0FinderSG                      </module>
+	   <module> V0FitterSG                      </module>
+	   <module> PSDReconstructorSG              </module>-->
+<!--      <module> AlVdHitFinderPS                 </module>
+      <module> AlVdTrackFinderSG               </module> -->
+      <module> ShineFileExporterSG             </module>
       <!-- QA Modules -->
       <module> TDAQQA                          </module>
       <module> VDQA                            </module>

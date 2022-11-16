@@ -199,7 +199,8 @@ void ProcessPlots(const char* filename="../OfflineQA.root")
   //Add histogram names to be plotted with log Z-scale here.
   vector<string> objectsWithLogZ{
     "SecondaryVerticesXZ","SecondaryVerticesZY","SecondaryVerticesZX",
-      "Cl_XY","Cl_ZX","Cl_ZY","hitXY","pmtAmplitudeCorrelationScintillator"
+      "Cl_XY","Cl_ZX","Cl_ZY","hitXY","pmtAmplitudeCorrelationScintillator",
+      "ClustersStation","PixelsStation","psdModSectScopeT1","psdFrontViewT1"
   };
   map<string,double> graphMins {
     {"T2T1Ratio",0},

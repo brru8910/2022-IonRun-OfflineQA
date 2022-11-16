@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<VdReconstructionSG
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="[SCHEMAPATH]/VdReconstructionSG.xsd">
+
+  <matchParamsPath>
+    /afs/cern.ch/user/a/amerzlay/public/XeLa150/VDmatchingfiles
+  </matchParamsPath>
+
+  <VdHitFinderPS>
+    <histogramsPath> VdHitFinderPS.root </histogramsPath>
+    <pixeldbPath>  /afs/cern.ch/user/p/pstaszel/public/shine_ana/vd-examples/alvd-pbpb/pixeldb </pixeldbPath>
+    <noiseRun> 0 </noiseRun> 
+ </VdHitFinderPS>
+
+<!--
+  <AlVdHitFinderPS>
+    <histogramsPath> AlVdHitFinderPS.root </histogramsPath>
+  </AlVdHitFinderPS>
+-->
+
+
+  <VdTrackFinderSG>
+    <doEventCuts> 0 </doEventCuts>
+    <histogramsPath> VdTrackFinderSG.root </histogramsPath>
+    <offAx_J unit='mm'> 0.001963  </offAx_J>
+    <sigAx_J unit='mm'> 0.00066   </sigAx_J>
+    <offAy_J unit='mm'> -0.000117 </offAy_J>
+    <sigAy_J unit='mm'> 0.00073   </sigAy_J>
+    <offAx_S unit='mm'> -0.0038   </offAx_S>
+    <sigAx_S unit='mm'> 0.000624  </sigAx_S>
+    <offAy_S unit='mm'> 0.0001716 </offAy_S>
+    <sigAy_S unit='mm'> 0.0006    </sigAy_S>
+    <!--<axTargetProdJ> 0.04   </axTargetProdJ>-->
+    <!--<axTargetProdS> -0.035 </axTargetProdS>-->
+    <axTargetProdJ> 0.035   </axTargetProdJ>
+    <axTargetProdS> -0.04 </axTargetProdS>
+    <!--<juraArmOffsetX unit='mm'> 13.5749131 </juraArmOffsetX>-->
+    <juraArmOffsetX unit='mm'> 28.5749131 </juraArmOffsetX>
+    <juraArmOffsetY unit='mm'> -0.0507523 </juraArmOffsetY>
+    <juraArmOffsetZ unit='mm'> 0.0875951  </juraArmOffsetZ>
+  </VdTrackFinderSG>
+
+<!--
+  <AlVdTrackFinderSG>
+    <doEventCuts> 0 </doEventCuts>
+    <histogramsPath> AlVdTrackFinderSG.root </histogramsPath>
+  </AlVdTrackFinderSG>
+-->
+
+</VdReconstructionSG>

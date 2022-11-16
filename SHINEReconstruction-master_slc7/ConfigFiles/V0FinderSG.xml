@@ -11,6 +11,6 @@
   <maximumZ unit="cm">  300 </maximumZ>
 
   <!-- maximum DCA to be accepted as V0 candidate -->
-  <maxDCA unit="cm"> 1 </maxDCA>
+  <maxDCA unit="cm"> 0.1 </maxDCA>
 
 </V0FinderSG>

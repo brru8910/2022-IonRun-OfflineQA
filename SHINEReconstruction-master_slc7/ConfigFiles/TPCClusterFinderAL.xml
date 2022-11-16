@@ -47,7 +47,7 @@
   <noChargeLossCorrection> 1 </noChargeLossCorrection>
 
   <!-- Set this variable to 1 if you want to specify drift velocity by hand. -->
-  <useCustomDriftVelocity> 1 </useCustomDriftVelocity>
+  <useCustomDriftVelocity> 0 </useCustomDriftVelocity>
   <!-- Forced drift velocity value (if one uses custom value specified by user). -->
   <customDriftVelocity unit="cm/microsecond"> 0.89 </customDriftVelocity>
 

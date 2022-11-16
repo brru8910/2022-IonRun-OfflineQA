@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Number of most-recent files to hadd. 
-numberOfFiles=100
+numberOfFiles=10000
 
 if [[ $# -gt 1 ]]
 then
@@ -17,7 +17,7 @@ pdfMakerDirectory='/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/pdfMaker'
 cd $EOSDropDirectory
 
 #List of QA rootfile template names.
-qaFiles=("BPDQA PSDQA MRPCQA VDQA TPCClusterQA" "TPCVertexQA" "TDAQQA" "TOFFQA" "GRCClusterQA")
+qaFiles=("BPDQA" "PSDQA" "MRPCQA" "VDQA" "TPCClusterQA" "TPCVertexQA" "TDAQQA" "GRCClusterQA")
 
 for qaName in "${qaFiles[@]}"
 do

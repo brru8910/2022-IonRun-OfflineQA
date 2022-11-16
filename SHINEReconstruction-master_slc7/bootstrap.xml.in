@@ -23,8 +23,12 @@
   <centralConfig>
 
     <configLink
+      id         = "ResidualsModuleBR"
+      xlink:href = "./ConfigFiles/ResidualsModuleBR.xml"/>
+
+    <configLink
       id         = "VdReconstructionSG"
-      xlink:href = "&configDir;/VdReconstructionSG.xml"/>
+      xlink:href = "./ConfigFiles/VdReconstructionSG.xml"/>
 
     <configLink
       id         = "BPDReconstructorSG"
@@ -100,11 +104,11 @@
 
     <configLink
        id         = "LocalTrackFinderBR"
-       xlink:href = "&configDir;/LocalTrackFinderBR.xml"/>
+       xlink:href = "./ConfigFiles/LocalTrackFinderBR-StraightTrackFitter.xml"/>
 
     <configLink
        id         = "GlobalTrackMergerBR"
-       xlink:href = "./ConfigFiles/GlobalTrackMergerBR.xml"/>
+       xlink:href = "./ConfigFiles/GlobalTrackMergerBR-StraightTrackFitter.xml"/>
     
     <configLink
        id         = "BeamlineTPCTrackFitterBR"

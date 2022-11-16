@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Configuration of Module ResidualsModuleBRs -->
+
+<ResidualsModuleBR
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/ResidualsModuleBR.xsd'>
+
+  <filename> Residuals.root </filename>
+
+  <!-- Tracker selection.
+       Options: magneticFieldTracker, kalmanFilter.
+       If reconstruction was performed using Legacy chain, use magneticFieldTracker.
+       If reconstruction was performed using SHINE chain, use kalmanFilter.
+  -->
+  <trackerType> magneticFieldTracker </trackerType>
+  
+  <!-- Track type selection.
+       Options: mainVertexTracks, allVertexTracks, allTracks.
+  -->
+  <trackType> allTracks </trackType>
+
+  <!-- Minimum and maximum Kalman Filter step size. Doesn't have to be too fine-grained
+       here, since we're tracking within chambers and not extrapolating very far. -->
+  <minKalmanFilterStepSize unit="cm"> 0.05 </minKalmanFilterStepSize> 
+  <maxKalmanFilterStepSize unit="cm"> 1.0 </maxKalmanFilterStepSize> 
+
+</ResidualsModuleBR>
