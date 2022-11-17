@@ -21,6 +21,14 @@
   &standardStaticDetConfig;
 
   <centralConfig>
+    
+    <configLink
+        id         = "GRCToTrackMatcherAL"
+        xlink:href = "&configDir;/GRCToTrackMatcherAL.xml"/>
+    
+    <configLink
+      id         = "TPCTPCAndTPCGRCMismatchCalculatorAL"
+      xlink:href = "./ConfigFiles/TPCTPCAndTPCGRCMismatchCalculatorAL.xml"/>
 
     <configLink
       id         = "ResidualsModuleBR"
@@ -33,6 +41,10 @@
     <configLink
       id         = "BPDReconstructorSG"
       xlink:href = "./ConfigFiles/BPDReconstructorSG.xml"/>
+
+    <configLink
+      id         = "BPDStaticInfoFixedManager"
+      xlink:href = "./Managers/BPDStaticInfo.xml"/>
 
     <configLink
       id         = "PSDReconstructorSG"
@@ -92,7 +104,7 @@
     
     <configLink
 	id         = "GRCClusterFinderAL"
-        xlink:href = "&configDir;/GRCClusterFinderAL.xml"/>
+        xlink:href = "./ConfigFiles/GRCClusterFinderAL.xml"/>
     
     <configLink
         id         = "DRS4CalibrationManager"

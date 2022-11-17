@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Configuration of Module GRCClusterFinderAL -->
+
+<!-- Optimized on run 40357 (beam goes through GRC1 and GRC2) -->
+
+<GRCClusterFinderAL
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/GRCClusterFinderAL.xsd'>
+
+  <!-- Verbosity: default, silent, terse, verbose, annoying -->
+  <verbosity> verbose </verbosity>
+
+  <!-- Minimum time slice index from which signal summation is performed. -->
+  <minimumTimeSliceCut> 14 </minimumTimeSliceCut>
+  <!-- Maximum time slice index until which signal summation is performed. -->
+  <maximumTimeSliceCut> 20 </maximumTimeSliceCut>
+
+  <!-- Minimum time slice index from which off-time signal summation is performed. -->
+  <minimumTimeSliceCutOffTime> 100 </minimumTimeSliceCutOffTime>
+  <!-- Maximum time slice index until which off-time signal summation is performed. -->
+  <maximumTimeSliceCutOffTime> 160 </maximumTimeSliceCutOffTime>
+
+  <!-- Minimum amplitude where cluster finding is initiated on Field Wires. -->
+  <amplitudeCutInitialFW> 40 </amplitudeCutInitialFW>
+  <!-- Minimum amplitude where cluster finding is continued on Field Wires. -->
+  <amplitudeCutNeighborSearchFW> 20 </amplitudeCutNeighborSearchFW>
+  <!-- Minimum amplitude where cluster finding is initiated on Pickup Wire Pairs. -->
+  <amplitudeCutInitialPWP> 20 </amplitudeCutInitialPWP>
+  <!-- Minimum amplitude where cluster finding is continued on Pickup Wire Pairs. -->
+  <amplitudeCutNeighborSearchPWP> 10 </amplitudeCutNeighborSearchPWP>
+
+  <!-- Minimum width of clusters in wire id direction in units of wire id
+       (in order to reject a typical noise pattern, for Field Wires). -->
+  <wireIdWidthLowerCutFW> 2 </wireIdWidthLowerCutFW>
+  <!-- Maximum width of clusters in wire id direction in units of wire id
+       (in order to reject a typical noise pattern, for Field Wires). -->
+  <wireIdWidthUpperCutFW> 7 </wireIdWidthUpperCutFW>
+  <!-- Minimum width of clusters in wire id direction in units of wire id
+       (in order to reject a typical noise pattern, for Pickup Wire Pairs). -->
+  <wireIdWidthLowerCutPWP> 3 </wireIdWidthLowerCutPWP>
+  <!-- Maximum width of clusters in wire id direction in units of wire id
+       (in order to reject a typical noise pattern, for Pickup Wire Pairs). -->
+  <wireIdWidthUpperCutPWP> 10 </wireIdWidthUpperCutPWP>
+
+  <!-- Hand specified position resolutions, Field Wires -->
+  <positionResolutionFW unit="cm"> 0.35 </positionResolutionFW>
+  <!-- Hand specified position resolutions, Pickup Wire Pairs -->
+  <positionResolutionPWP unit="cm"> 0.174 </positionResolutionPWP>
+
+  <!-- Set it to 1 if no wire-by-wire gain correction is to be used. -->
+  <noWireByWireGainCorrection> 0 </noWireByWireGainCorrection>
+
+  <!-- Space delimited list of GRC names for which cluster finding is to be done. -->
+  <grcList> GRC1 </grcList>
+
+  <!-- Output file name for control histrogram (empty for no output). -->
+  <controlHistoOutputFileName> GRCClusterControl.root </controlHistoOutputFileName>
+
+</GRCClusterFinderAL>

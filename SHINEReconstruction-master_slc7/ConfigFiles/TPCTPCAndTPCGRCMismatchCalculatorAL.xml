@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Configuration of Module TPCTPCAndTPCGRCMismatchCalculatorAL -->
+
+<TPCTPCAndTPCGRCMismatchCalculatorAL
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/TPCTPCAndTPCGRCMismatchCalculatorAL.xsd'>
+
+  <!-- Verbosity: default, silent, terse, verbose, annoying -->
+  <verbosity> verbose </verbosity>
+
+  <!-- number of clusters cut on local tracks -->
+  <nMinVTPC1Clusters> 20 </nMinVTPC1Clusters>
+  <nMinVTPC2Clusters> 20 </nMinVTPC2Clusters>
+  <nMinMTPCLClusters> 40 </nMinMTPCLClusters>
+  <nMinMTPCRClusters> 40 </nMinMTPCRClusters>
+  <nMinGTPCClusters>  5  </nMinGTPCClusters>
+  <nMinFTPC1Clusters> 5 </nMinFTPC1Clusters>
+  <nMinFTPC2Clusters> 5 </nMinFTPC2Clusters>
+  <nMinFTPC3Clusters> 5 </nMinFTPC3Clusters>
+
+  <!-- GTPC beam spot cut in X strip to reject off-times -->
+  <localXLeftMarginGTPCBeamSpot unit="cm">   -2.0  </localXLeftMarginGTPCBeamSpot>
+  <localXRightMarginGTPCBeamSpot unit="cm">   7.0 </localXRightMarginGTPCBeamSpot>
+
+  <!-- FTPC1,2,3 beam spot cut in X strip to reject off-times -->
+  <localXLeftMarginFTPC1BeamSpot unit="cm">  3.0   </localXLeftMarginFTPC1BeamSpot>
+  <localXRightMarginFTPC1BeamSpot unit="cm"> 7.0  </localXRightMarginFTPC1BeamSpot>
+  <localXLeftMarginFTPC2BeamSpot unit="cm">  8.0   </localXLeftMarginFTPC2BeamSpot>
+  <localXRightMarginFTPC2BeamSpot unit="cm"> 13.0 </localXRightMarginFTPC2BeamSpot>
+  <localXLeftMarginFTPC3BeamSpot unit="cm">  8.0   </localXLeftMarginFTPC3BeamSpot>
+  <localXRightMarginFTPC3BeamSpot unit="cm"> 13.0 </localXRightMarginFTPC3BeamSpot>
+
+  <!-- Minimum and maximum Kalman filter step size. -->
+  <minKalmanFilterStepSize unit="cm"> 0.05 </minKalmanFilterStepSize>
+  <maxKalmanFilterStepSize unit="cm"> 5.0 </maxKalmanFilterStepSize>
+
+  <!-- Maximum allowed number of tracks hitting GRC (0 for no cut). -->
+  <maxAllowedGRCOccupancy> 0 </maxAllowedGRCOccupancy>
+
+  <!-- Maximum allowed number of tracks (0 for no cut). -->
+  <maxAllowedOccupancy> 0 </maxAllowedOccupancy>
+
+  <!-- file name of output root file with in-place calculated drift velocities (empty for none) -->
+  <vDriftOutputFileName> vDrift.root </vDriftOutputFileName>
+
+  <!-- file name of output root file with track matching differences (empty for none) -->
+  <trackMatchOutputFileName> trackMatchDump.root </trackMatchOutputFileName>
+
+</TPCTPCAndTPCGRCMismatchCalculatorAL>

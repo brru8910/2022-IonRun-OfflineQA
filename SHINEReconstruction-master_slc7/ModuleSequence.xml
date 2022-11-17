@@ -15,8 +15,8 @@
       <module> DRS4CalibratorKA                </module>
       <module> BPDReconstructorSG              </module>
       <module> TPCClusterFinderAL              </module>
-      <module> GRCClusterFinderAL              </module> 
-      <module> ExBCorrectorSG                  </module>
+      <module> GRCClusterFinderAL              </module>
+      <!--<module> ExBCorrectorSG                  </module>-->
       <module> LocalTrackFinderBR              </module>
       <module> ResidualsModuleBR               </module>
       <module> GlobalTrackMergerBR             </module>
@@ -26,16 +26,18 @@
       <module> PSDReconstructorSG              </module>
       <module> AlVdHitFinderPS                 </module>
       <module> AlVdTrackFinderSG               </module>
+      <module> GRCToTrackMatcherAL             </module>
       <module> ShineFileExporterSG             </module>
+      <module> TPCTPCAndTPCGRCMismatchCalculatorAL </module>
       <!-- QA Modules -->
+      <module> BPDQA                           </module>
       <module> TDAQQA                          </module>
       <module> VDQA                            </module>
-      <module> BPDQA                           </module>
       <module> TPCClusterQA                    </module>
       <module> TPCVertexQA                     </module>
       <module> GRCClusterQA                    </module>
-      <module> MRPCQA                          </module>
-      <module> PSDQA                           </module> 
+      <!--<module> MRPCQA                          </module>-->
+      <module> PSDQA                           </module>
     </loop>
     
   </moduleControl>

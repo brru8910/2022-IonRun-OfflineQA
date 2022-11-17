@@ -200,7 +200,7 @@ void ProcessPlots(const char* filename="../OfflineQA.root")
   vector<string> objectsWithLogZ{
     "SecondaryVerticesXZ","SecondaryVerticesZY","SecondaryVerticesZX",
       "Cl_XY","Cl_ZX","Cl_ZY","hitXY","pmtAmplitudeCorrelationScintillator",
-      "ClustersStation","PixelsStation","psdModSectScopeT1","psdFrontViewT1"
+      "ClustersStation","PixelsStation","psdModSectScopeT1","psdFrontViewT1","dYVsY","BPD"
   };
   map<string,double> graphMins {
     {"T2T1Ratio",0},
