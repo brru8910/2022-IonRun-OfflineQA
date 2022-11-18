@@ -107,11 +107,15 @@ if [ $EXITCODE -eq 0 ]; then
     ls *QA.root
     ls *shoe.root
     ls *krCalibration.root
+    ls *trackMatchDump.root
+    ls *krCalibration.root
     echo 'To directory:'
     echo $reco_drop_dir
     cp -f *Residuals.root $reco_drop_dir
     cp -f *QA.root $reco_drop_dir
     cp -f *shoe.root $reco_drop_dir
+    cp -f *vDrift.root $reco_drop_dir
+    cp -f *trackMatchDump.root $reco_drop_dir
     cp -f *krCalibration.root $reco_drop_dir
 fi
 

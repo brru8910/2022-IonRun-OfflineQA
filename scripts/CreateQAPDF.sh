@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Number of most-recent files to hadd. 
-numberOfFiles=10000
+numberOfFiles=500
 
 if [[ $# -gt 1 ]]
 then
@@ -17,7 +17,11 @@ pdfMakerDirectory='/afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/pdfMaker'
 cd $EOSDropDirectory
 
 #List of QA rootfile template names.
-qaFiles=("BPDQA" "PSDQA" "MRPCQA" "VDQA" "TPCClusterQA" "TPCVertexQA" "TDAQQA" "GRCClusterQA")
+qaFiles=("BPDQA" "PSDQA" "MRPCQA" "VDQA" "TPCClusterQA" "TPCVertexQA" "TDAQQA" "GRCClusterQA" "vDrift")
+
+#Compile plot processor.
+cd $pdfMakerDirectory
+make clean && make
 
 for qaName in "${qaFiles[@]}"
 do
@@ -28,17 +32,17 @@ do
     else
 	matchString='*'$qaName'.root'
     fi
-    echo "qaName: "$qaName 
-    echo 'Match string: '$matchString
     #Get QA histogram files.
-    echo 'command: ls -rt '$EOSDropDirectory'/'$matchString' | tail -n '$numberOfFiles' | sort > haddList'$qaName'.txt'
+    cd $EOSDropDirectory
     ls -rt $EOSDropDirectory'/'$matchString | tail -n $numberOfFiles | sort > haddList$qaName.txt
     #hadd files.
-    hadd -k -f $qaName.root `cat haddList$qaName.txt`
+    hadd -k -f $EOSDropDirectory'/'$qaName.root `cat haddList$qaName.txt`
     #Export plots to PNG files.
     cd $pdfMakerDirectory
-    root -b -q 'ProcessPlots.C("'$EOSDropDirectory'/'$qaName'.root")'
+    $pdfMakerDirectory"/ProcessPlots" $EOSDropDirectory"/"$qaName".root"
+    #root -b -q 'ProcessPlots.C("'$EOSDropDirectory'/'$qaName'.root")'
     #Remove hadd'ed files and lists of files.
+    
     cd $EOSDropDirectory
     rm $qaName.root
     rm haddList$qaName.txt
