@@ -8,7 +8,7 @@
 
   <!-- Minimum time-slice index from where the reconstruction begins
        (in order to reject noise from triggering in the first slices). -->
-  <minimumTimeSliceCut> 6 </minimumTimeSliceCut>
+  <minimumTimeSliceCut> 10 </minimumTimeSliceCut>
   <!-- Maximum time-slice index where the reconstruction stops at
        (in order to reject obviously off-time slices). -->
   <maximumTimeSliceCut> 512 </maximumTimeSliceCut>
@@ -38,7 +38,7 @@
   <!-- Set this variable to 1 if you do not want chamber-by-chamber T0 correction. -->
   <noChamberByChamberT0Correction> 1 </noChamberByChamberT0Correction>
   <!-- Set this variable to 1 if you do not want pad-by-pad T0 correction. -->
-  <noPadByPadT0Correction> 0 </noPadByPadT0Correction>
+  <noPadByPadT0Correction> 1 </noPadByPadT0Correction>
 
   <!-- Set this variable to 1 if you do not want pad-by-pad gain correction. -->
   <noPadByPadGainCorrection> 0 </noPadByPadGainCorrection>

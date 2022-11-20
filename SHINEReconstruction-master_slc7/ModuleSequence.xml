@@ -16,7 +16,7 @@
       <module> BPDReconstructorSG              </module>
       <module> TPCClusterFinderAL              </module>
       <module> GRCClusterFinderAL              </module>
-      <!--<module> ExBCorrectorSG                  </module>-->
+      <module> ExBCorrectorSG                  </module>
       <module> LocalTrackFinderBR              </module>
       <module> ResidualsModuleBR               </module>
       <module> GlobalTrackMergerBR             </module>
@@ -36,8 +36,9 @@
       <module> TPCClusterQA                    </module>
       <module> TPCVertexQA                     </module>
       <module> GRCClusterQA                    </module>
-      <!--<module> MRPCQA                          </module>-->
       <module> PSDQA                           </module>
+      <module> DetectorCorrelationQA           </module>
+      <!--<module> MRPCQA                          </module>-->
     </loop>
     
   </moduleControl>

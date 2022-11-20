@@ -5,19 +5,19 @@
   xsi:noNamespaceSchemaLocation="[SCHEMAPATH]/TPCDriftVelocityFixedManager.xsd">
 
   <TPC name="VTPC1">
-    <driftVelocity unit="centimeter/microsecond"> 1.4 </driftVelocity>
+    <driftVelocity unit="centimeter/microsecond"> 1.42064 </driftVelocity>
   </TPC>
 
   <TPC name="VTPC2">
-    <driftVelocity unit="centimeter/microsecond"> 1.4 </driftVelocity>
+    <driftVelocity unit="centimeter/microsecond"> 1.4278 </driftVelocity>
   </TPC>
 
   <TPC name="MTPCL">
-    <driftVelocity unit="centimeter/microsecond"> 2.3 </driftVelocity>
+    <driftVelocity unit="centimeter/microsecond"> 2.37013 </driftVelocity>
   </TPC>
 
   <TPC name="MTPCR">
-    <driftVelocity unit="centimeter/microsecond"> 2.3 </driftVelocity>
+    <driftVelocity unit="centimeter/microsecond"> 2.36052 </driftVelocity>
   </TPC>
 
   <TPC name="GTPC">

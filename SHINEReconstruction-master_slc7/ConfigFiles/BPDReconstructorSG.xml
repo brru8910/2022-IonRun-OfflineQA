@@ -7,7 +7,7 @@
   xsi:noNamespaceSchemaLocation='[SCHEMAPATH]/BPDReconstructorSG.xsd'>
 
   <!-- Minimum signal to assign strip to cluster -->
-  <threshold> 250 </threshold>
+  <threshold> 0 </threshold>
 
   <!-- Number of strips omitted on edges of BPD planes -->
   <edge> 1 </edge>

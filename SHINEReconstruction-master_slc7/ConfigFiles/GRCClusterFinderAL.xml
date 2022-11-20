@@ -52,7 +52,7 @@
   <noWireByWireGainCorrection> 0 </noWireByWireGainCorrection>
 
   <!-- Space delimited list of GRC names for which cluster finding is to be done. -->
-  <grcList> GRC1 </grcList>
+  <grcList> GRC1 GRC2 </grcList>
 
   <!-- Output file name for control histrogram (empty for no output). -->
   <controlHistoOutputFileName> GRCClusterControl.root </controlHistoOutputFileName>

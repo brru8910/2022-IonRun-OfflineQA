@@ -13,7 +13,7 @@
        If reconstruction was performed using Legacy chain, use magneticFieldTracker.
        If reconstruction was performed using SHINE chain, use kalmanFilter.
   -->
-  <trackerType> magneticFieldTracker </trackerType>
+  <trackerType> kalmanFilter </trackerType>
   
   <!-- Track type selection.
        Options: mainVertexTracks, allVertexTracks, allTracks.
