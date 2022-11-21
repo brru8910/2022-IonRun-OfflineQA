@@ -2,12 +2,15 @@
 
 #Transfer arguments.
 inputFile=$1
-inputDirectory=$2
 
 #Temporary storage directory on EOS.
-tmpDirectory=/eos/experiment/na61/data/OnlineProduction/2022-IonRun-OfflineQA/ChunkStorage
+tmpDirectory=$2
 
-echo '[WARNING] File must exist in EOS Drop Directory!'
+if [ ! -f $tmpDirectory/$inputFile ]; then
+    echo "[ERROR] No file found at path "$tmpDirectory/$inputFile". Exiting."
+    exit 1
+fi
+echo '[INFO] File exists.'
 
 #Move to submit directory and submit QA job.
 cd /afs/cern.ch/user/n/na61qa/2022-IonRun-OfflineQA/submit

@@ -1,6 +1,7 @@
 executable	=	@EXECUTABLE@
 +JobFlavour	=	"@QUEUE@"
 log		=	condor.log
+RequestCpus     =       2
 output		=	/dev/null
 error		=	/dev/null
 #output		=	stdout.log

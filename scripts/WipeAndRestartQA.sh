@@ -13,6 +13,7 @@ read  -n 1 -p "[press any key to proceed]" input
 
 CleanROOTFiles.sh
 CleanLogs.sh
+#CleanChunkStorage.sh
 condor_rm na61qa
 
 echo "===================Finished==================="
